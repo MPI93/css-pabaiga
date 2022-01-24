@@ -1,0 +1,209 @@
+* {
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.pirmas {
+    background-color: #1f2937;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.pirmo-header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.pirmo-linkai {
+    font-size: 18px;
+}
+
+a {
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+.pirmo-tekstas .pagrindinis-tekstas {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.pirmo-tekstas .antrinis-tekstas {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.pirmo-virsus {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.pirmo-header {
+    margin-right: auto;
+}
+
+.pirmo-linkai {
+    margin-left: auto;
+}
+
+.pirmo-apacia {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.pirmo-tekstas {
+    margin-right: auto;
+    width: 50%;
+    margin-right: 30px;
+}
+
+.mygtukas {
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    font-size: 18px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pirmo-dezute {
+    margin-left: auto;
+    width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color:white;
+   background-color: grey;
+   border: 1px solid black;
+}
+
+.antras {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.antro-header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.antro-dezute1 {
+    border: solid #3882F6 3px;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.antro-dezute2 {
+    width: 100px;
+    height: 100px;
+}
+
+.antro-apacia {
+    display: flex;
+}
+
+.trecias {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.trecio-deze {
+    display: flex;
+    width: 550px;
+    flex-wrap: wrap;
+}
+
+.trecio-tekstas1 {
+    font-size: 24px;
+    font-style: italic;
+    width: 550px;
+    flex-shrink: 0;
+    margin-top: 80px;
+}
+
+.trecio-tekstas2{
+    display: flex;
+    font-weight: bold;
+    margin-left: auto;
+    margin-bottom: 80px;
+}
+
+.ketvirtas {
+    display: flex;
+    justify-content: center;
+}
+
+.ketvirto-deze {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    background-color: #3882F6;
+    margin-top:60px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+}
+
+
+.ketvirto-deze1-virsus {
+    font-size: 20px;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+.ketvirto-deze1-apacia {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.ketvirto-deze2 {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.ketvirto-mygtukas {
+color: white;
+background-color: #3882F6;
+border-radius: 8px;
+border: 2px solid white;
+font-size: 18px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-tekstas {
+    font-size: 18px;
+    color: #f9faf8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
